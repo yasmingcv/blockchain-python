@@ -75,14 +75,14 @@ Digite o nome da empresa: 0
 Index:  0
 Timestamp:  2024-11-16 18:19:20.871710
 Data:  Genesis Block
-Hash:  <bound method Block.calculate_hash of <domain.block.Block object at 0x0000028E9B2ABEF0>>
+Hash:  34a2993a6e36859901714a2bff6fc500c8ed834ea34fbeac9fb9113c8292c3c4
 Previous Hash:  0
 ----------------------------------------------------------------------
 Index:  1
 Timestamp:  2024-11-16 18:19:40.610276
 Data:  {'empresa': 'FIAP', 'consumo_kwh': 10000.0, 'selo': 'verde'}
 Hash:  7c3a3bbc0e55d6ad6f091c2fe2fabddbb2b54770a11e44b19e4d5240c9cc5d6f
-Previous Hash:  <bound method Block.calculate_hash of <domain.block.Block object at 0x0000028E9B2ABEF0>>
+Previous Hash:  34a2993a6e36859901714a2bff6fc500c8ed834ea34fbeac9fb9113c8292c3c4
 ----------------------------------------------------------------------
 Index:  2
 Timestamp:  2024-11-16 18:19:40.610276

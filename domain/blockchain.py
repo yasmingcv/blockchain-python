@@ -10,7 +10,9 @@ class Blockchain:
     
     #função para criar o bloco genesis, o primeiro bloco da blockchain (não possui hash anterior)
     def create_genesis_block(self):
-        return Block(0, date.datetime.now(), "Genesis Block", "0")
+        genesis_block = Block(0, date.datetime.now(), "Genesis Block", "0")
+        genesis_block.hash = genesis_block.calculate_hash()
+        return genesis_block
 
     #função para adicionar um novo bloco à blockchain
     def add_block(self, new_block: Block):
