@@ -35,7 +35,7 @@ def main():
                 empresa = input('Digite o nome da empresa: ')  
                 if empresa == '0':
                     break
-                consumo_kwh = float(input(f'Digite o consumo mensal de KWh da empresa {empresa}: '))
+                consumo_kwh = float(input(f'Digite o consumo mensal de KWh da empresa {empresa}: '))                    
                 empresas.append({
                     "empresa": empresa,
                     "consumo_kwh": consumo_kwh
@@ -47,6 +47,9 @@ def main():
         bubble_sort_empresas(empresas)
         
         # Adiciona o selo verde nas empresas que atingiram a meta de consumo
+        if (len(empresas) == 0):
+            print("Nenhuma empresa cadastrada.")
+            return
         for empresa in empresas:
             if empresa['consumo_kwh'] <= meta_kwh:
                 empresa['selo'] = 'verde'
