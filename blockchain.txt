@@ -1,0 +1,42 @@
+
+------------------------------------------------------------------------------------------------------------------------
+------------------BLOCKCHAIN------------------
+Index: 0
+Timestamp: 2024-11-16 17:51:15.579119
+Data: Genesis Block
+Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000001988C9BBC80>>
+Previous Hash: 0
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+------------------BLOCKCHAIN------------------
+Index: 0
+Timestamp: 2024-11-16 17:47:21.264650
+Data: Genesis Block
+Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002DF21E9B8C0>>
+Previous Hash: 0
+------------------------------------------------------------------------------------------------------------------------
+Index: 1
+Timestamp: 2024-11-16 17:48:12.628196
+Data: {'empresa': 'Mercado Livre', 'consumo_kwh': 1.0, 'selo': 'verde'}
+Hash: 5d5f24b0206ba9da6d26a17c57f6875acbb398d1d768f7ddd2344101972c3ecc
+Previous Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002DF21E9B8C0>>
+------------------------------------------------------------------------------------------------------------------------
+Index: 2
+Timestamp: 2024-11-16 17:48:12.628196
+Data: {'empresa': 'Google', 'consumo_kwh': 2.0, 'selo': 'verde'}
+Hash: 558119d281627ecdf4001ef7dd0a046dc4b7d1fe95ba52eb9872a8c74cb76939
+Previous Hash: 5d5f24b0206ba9da6d26a17c57f6875acbb398d1d768f7ddd2344101972c3ecc
+------------------------------------------------------------------------------------------------------------------------
+Index: 3
+Timestamp: 2024-11-16 17:48:12.628196
+Data: {'empresa': 'IBM', 'consumo_kwh': 4.0, 'selo': 'verde'}
+Hash: b86bff513645dfaa40054a0930a665c993e3c115675ca4593465fdce021bcec0
+Previous Hash: 558119d281627ecdf4001ef7dd0a046dc4b7d1fe95ba52eb9872a8c74cb76939
+------------------------------------------------------------------------------------------------------------------------
+Index: 4
+Timestamp: 2024-11-16 17:48:12.628196
+Data: {'empresa': 'FIAP', 'consumo_kwh': 10.0, 'selo': 'verde'}
+Hash: 83965aba5a1f809334f4a28d71693d3a857d9aee2bfd95d2fe9b02edf13bb35b
+Previous Hash: b86bff513645dfaa40054a0930a665c993e3c115675ca4593465fdce021bcec0
+------------------------------------------------------------------------------------------------------------------------
