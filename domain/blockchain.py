@@ -43,14 +43,15 @@ class Blockchain:
             print(20*'------')
             
     def save_blockchain_to_file(self, file_path):
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write('\n')
-            file.write(20*'------' + '\n')
-            file.write('------------------BLOCKCHAIN------------------\n')
-            for block in self.chain:
-                file.write(f'Index: {block.index}\n')
-                file.write(f'Timestamp: {block.timestamp}\n')
-                file.write(f'Data: {block.data}\n')
-                file.write(f'Hash: {block.hash}\n')
-                file.write(f'Previous Hash: {block.previous_hash}\n')
-                file.write(20*'------' + '\n')
+        try:
+            with open(file_path, 'w', encoding='utf-8') as file:
+                for block in self.chain:
+                    file.write(f'Index: {block.index}\n')
+                    file.write(f'Timestamp: {block.timestamp}\n')
+                    file.write(f'Data: {block.data}\n')
+                    file.write(f'Hash: {block.hash}\n')
+                    file.write(f'Previous Hash: {block.previous_hash}\n')
+                    file.write(20*'------' + '\n')
+            print(f"Blockchain salva com sucesso no arquivo: {file_path}")
+        except IOError as e:
+            print(f"Erro ao salvar a blockchain no arquivo {file_path}: {str(e)}")

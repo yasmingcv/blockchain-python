@@ -1,42 +1,36 @@
-
-------------------------------------------------------------------------------------------------------------------------
-------------------BLOCKCHAIN------------------
 Index: 0
-Timestamp: 2024-11-16 17:51:15.579119
+Timestamp: 2024-11-16 17:53:15.923303
 Data: Genesis Block
-Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000001988C9BBC80>>
-Previous Hash: 0
-------------------------------------------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------------------------------------------------
-------------------BLOCKCHAIN------------------
-Index: 0
-Timestamp: 2024-11-16 17:47:21.264650
-Data: Genesis Block
-Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002DF21E9B8C0>>
+Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002589479BC80>>
 Previous Hash: 0
 ------------------------------------------------------------------------------------------------------------------------
 Index: 1
-Timestamp: 2024-11-16 17:48:12.628196
-Data: {'empresa': 'Mercado Livre', 'consumo_kwh': 1.0, 'selo': 'verde'}
-Hash: 5d5f24b0206ba9da6d26a17c57f6875acbb398d1d768f7ddd2344101972c3ecc
-Previous Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002DF21E9B8C0>>
+Timestamp: 2024-11-16 17:54:05.891331
+Data: {'empresa': 'Amazon', 'consumo_kwh': 2000.0, 'selo': 'verde'}
+Hash: e1f1ce4b0cf3fbdb7c70373e924d7607e3ad9152ca586e6f9606d0053259c5cb
+Previous Hash: <bound method Block.calculate_hash of <domain.block.Block object at 0x000002589479BC80>>
 ------------------------------------------------------------------------------------------------------------------------
 Index: 2
-Timestamp: 2024-11-16 17:48:12.628196
-Data: {'empresa': 'Google', 'consumo_kwh': 2.0, 'selo': 'verde'}
-Hash: 558119d281627ecdf4001ef7dd0a046dc4b7d1fe95ba52eb9872a8c74cb76939
-Previous Hash: 5d5f24b0206ba9da6d26a17c57f6875acbb398d1d768f7ddd2344101972c3ecc
+Timestamp: 2024-11-16 17:54:05.891331
+Data: {'empresa': 'Google', 'consumo_kwh': 4300.0, 'selo': 'verde'}
+Hash: 41e12ba1c1a164eb4d407e0e1212184920bb70d4d0b9c69dcde58ad4ca24926b
+Previous Hash: e1f1ce4b0cf3fbdb7c70373e924d7607e3ad9152ca586e6f9606d0053259c5cb
 ------------------------------------------------------------------------------------------------------------------------
 Index: 3
-Timestamp: 2024-11-16 17:48:12.628196
-Data: {'empresa': 'IBM', 'consumo_kwh': 4.0, 'selo': 'verde'}
-Hash: b86bff513645dfaa40054a0930a665c993e3c115675ca4593465fdce021bcec0
-Previous Hash: 558119d281627ecdf4001ef7dd0a046dc4b7d1fe95ba52eb9872a8c74cb76939
+Timestamp: 2024-11-16 17:54:05.891331
+Data: {'empresa': 'IBM', 'consumo_kwh': 5000.0, 'selo': 'verde'}
+Hash: 230a1059dfaa991fb808f7bdcf305827fb80fec7ff4b1843b2cfeda78163d88c
+Previous Hash: 41e12ba1c1a164eb4d407e0e1212184920bb70d4d0b9c69dcde58ad4ca24926b
 ------------------------------------------------------------------------------------------------------------------------
 Index: 4
-Timestamp: 2024-11-16 17:48:12.628196
-Data: {'empresa': 'FIAP', 'consumo_kwh': 10.0, 'selo': 'verde'}
-Hash: 83965aba5a1f809334f4a28d71693d3a857d9aee2bfd95d2fe9b02edf13bb35b
-Previous Hash: b86bff513645dfaa40054a0930a665c993e3c115675ca4593465fdce021bcec0
+Timestamp: 2024-11-16 17:54:05.891331
+Data: {'empresa': 'Alura', 'consumo_kwh': 7000.0, 'selo': 'verde'}
+Hash: b5792711e992ebfa92f6403b3af0e9629ccb4dc73917fe3bbfbfe2d2f42f7320
+Previous Hash: 230a1059dfaa991fb808f7bdcf305827fb80fec7ff4b1843b2cfeda78163d88c
+------------------------------------------------------------------------------------------------------------------------
+Index: 5
+Timestamp: 2024-11-16 17:54:05.891331
+Data: {'empresa': 'FIAP', 'consumo_kwh': 11000.0, 'selo': 'verde'}
+Hash: 8ae30fe44752c5c45aa28d2690fa641d344e456148303f6682122e515ecefb98
+Previous Hash: b5792711e992ebfa92f6403b3af0e9629ccb4dc73917fe3bbfbfe2d2f42f7320
 ------------------------------------------------------------------------------------------------------------------------
