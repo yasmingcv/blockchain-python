@@ -94,5 +94,6 @@ Previous Hash:  7c3a3bbc0e55d6ad6f091c2fe2fabddbb2b54770a11e44b19e4d5240c9cc5d6f
 
 ## Integrantes
 
+- Arthur Cotrick Pagani (RM 554510)
 - David Murillo de Oliveira Soares (RM 559078)
 - Yasmin Gonçalves Coelho (RM 559147)
