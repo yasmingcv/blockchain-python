@@ -31,6 +31,9 @@ class Blockchain:
             return True
         
     def print_blockchain(self):
+        print()
+        print(20*'------')
+        print('------------------BLOCKCHAIN------------------')
         for block in self.chain:
             print('Index: ', block.index)
             print('Timestamp: ', block.timestamp)
