@@ -25,13 +25,12 @@ def main():
         
         empresas = []
         
+        print('-' * 70)
+        print(f'{"CADASTRO DE EMPRESAS":^70}')
+        print(f'{"Bem-vindo(a) ao cadastro de empresas. Digite 0 para sair.":^70}')
+        print('-' * 70)
         while True:
             try:
-                print(20*'------')
-                print('------------------CADASTRO DE EMPRESAS------------------')
-                print('Bem-vindo(a) ao cadastro de empresas. Digite 0 para sair.')
-                print(20*'------')
-                
                 empresa = input('Digite o nome da empresa: ')  
                 if empresa == '0':
                     break
@@ -40,6 +39,7 @@ def main():
                     "empresa": empresa,
                     "consumo_kwh": consumo_kwh
                 })
+                print('-' * 70)
             except ValueError:
                 print("Erro: Consumo mensal de KWh deve ser um número.")
         

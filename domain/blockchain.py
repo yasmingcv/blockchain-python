@@ -32,15 +32,15 @@ class Blockchain:
         
     def print_blockchain(self):
         print()
-        print(20*'------')
-        print('------------------BLOCKCHAIN------------------')
+        print('\n' + '-' * 70)
+        print(f'{"BLOCKCHAIN":^70}')
         for block in self.chain:
             print('Index: ', block.index)
             print('Timestamp: ', block.timestamp)
             print('Data: ', block.data)
             print('Hash: ', block.hash)
             print('Previous Hash: ', block.previous_hash)
-            print(20*'------')
+            print(70*'-')
             
     def save_blockchain_to_file(self, file_path):
         try:
